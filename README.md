@@ -12,7 +12,7 @@ This project showcases a Power BI dashboard analyzing food delivery performance 
 
 -Companies lack clear visibility into average delivery time by order type and vehicle, making it harder to optimize operations.
 
-🛠️** Tools & Technologies**
+🛠️ **Tools & Technologies**
 
 -Power BI (Dashboard, Visualization, KPI Cards, Slicers)
 -SQL (Data Cleaning, Joins, Filtering)
@@ -21,7 +21,7 @@ This project showcases a Power BI dashboard analyzing food delivery performance 
 
 -Data Modeling (Star Schema: Orders, Customers, Vehicles, Ratings)
 
-🔄 Process Overview
+🔄 **Process Overview**
 
 1. **Data Source**
  
