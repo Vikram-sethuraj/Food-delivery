@@ -19,11 +19,11 @@ This project showcases a Power BI dashboard analyzing food delivery performance 
 🔄 Process Overview
 
 1. **Data Source**
-2. 
-Delivery dataset containing order type, vehicle type, delivery location, time taken, and ratings.
+ 
+ Delivery dataset containing order type, vehicle type, delivery location, time taken, and ratings.
 
-3. **Data Cleaning (SQL)**
-4. 
+2. **Data Cleaning (SQL)**
+ 
 -Removed nulls and duplicates.
 -Standardized categorical fields (e.g., vehicle types, order categories).
 -Created a unified delivery dataset.
@@ -44,7 +44,7 @@ JOIN order_data o ON d.Order_ID = o.Order_ID
 JOIN vehicle_data v ON d.Vehicle_ID = v.Vehicle_ID;
 
 3. **Data Modeling**
-4. 
+ 
 -Built a star schema with one fact table (Deliveries) and multiple dimension tables (Orders, Vehicles, Ratings, Locations).
 
 4.**DAX Measures**
